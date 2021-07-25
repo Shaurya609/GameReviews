@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(https://drive.google.com/uc?id=1gGWAZmnGVWcW0utT8vjQSc5dpVo88Xu6);
 }
 
@@ -7,36 +7,76 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
+.card {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #PUBG {
     background-image: url(https://drive.google.com/uc?id=1-apC_a_4cxMPC7slxMsHyzhL44YGum0v);
     background-size: cover;
 }
-#PUBG:hover{
-    animation-name: video;
+
+#PUBG:hover {
+    animation-name: pubg;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
-@keyframes video{
-    0%{
+@keyframes pubg {
+    0% {
         border: 5px solid cyan;
     }
-    100%{
+
+    100% {
         border: 5px solid cyan;
         border-radius: 10%;
     }
 }
 
-#eternal{
-    background-image: url(https://wallpapercave.com/wp/wp5890946.jpg);
+#eternal {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_5i2hXE4QRdZNXtyHHnNITP53N8gZ4cEnA&usqp=CAU);
     background-size: cover;
 }
 
-.card{
-    text-align: center;
+#eternal:hover{
+    animation-name: doom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.card-text{
-    font-size: 30px;
-    font-weight: 600;
+@keyframes doom{
+    0% {
+        border: 5px solid rgb(143, 0, 0);
+    }
+
+    100% {
+        border: 5px solid rgb(143, 0, 0);
+        border-radius: 10%;
+    }
+}
+
+#daysgone{
+    background-image: url(https://www.mordeo.org/files/uploads/2021/04/Days-Gone-Game-Poster-4K-Ultra-HD-Mobile-Wallpaper.jpg);
+    background-size: cover;
+}
+
+#daysgone:hover{
+    animation-name: days;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes days{
+    0%{
+        border: 5px solid white;
+    }
+    100%{
+        border: 5px solid white;
+        border-radius: 10%;
+    }
 }
