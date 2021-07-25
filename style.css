@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://drive.google.com/uc?id=1gGWAZmnGVWcW0utT8vjQSc5dpVo88Xu6);
+}
+
+.jumbotron {
+    background-image: url(https://cdn.dribbble.com/users/5946079/screenshots/15271639/my-playing-design-2_4x.jpg);
+    font-family: 'Pacifico', cursive;
+}
+
+#PUBG {
+    background-image: url(https://drive.google.com/uc?id=1-apC_a_4cxMPC7slxMsHyzhL44YGum0v);
+    background-size: cover;
+}
+#PUBG:hover{
+    animation-name: video;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes video{
+    0%{
+        border: 5px solid cyan;
+    }
+    100%{
+        border: 5px solid cyan;
+        border-radius: 10%;
+    }
+}
+
+#eternal{
+    background-image: url(https://wallpapercave.com/wp/wp5890946.jpg);
+    background-size: cover;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 30px;
+    font-weight: 600;
+}
